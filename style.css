@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.turnToGrey {
+    color: grey;
+}
+
+header {
+    width: 100%;
+    float: right;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+.blank{
+    padding-right: 8px;
+}
+
+nav ul {
+    width: auto;
+    margin-top: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: Futura-PT,FuturaStd,Tahoma,Arial,Verdana,Sans-Serif;
+    font-size: smaller;
+}
+
+nav li {
+    border: 1px solid #b8bab9;
+    line-height: 30px;
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.bottomNav ul {
+    list-style: none;
+    margin: 0;
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #2b2a2a;
+}
+
+.bottomNav ul img {
+    width: auto;
+    height: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bottomNav li {
+    border-right: 1px solid #5c5b5b;
+    line-height: 60px;
+    float: right;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.bottomNav li:last-child {
+    border-right: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+}
+
+
+.banner ul {
+    text-align: center;
+    font-family: Futura-PT,FuturaStd,Tahoma,Arial,Verdana,Sans-Serif;
+    font-size:smaller;
+    list-style: none;
+    width: auto;
+    height: 60px;
+    padding: 0;
+    margin: 0 100px;
+    color: white;
+}
+
+.leftButton:first-child {
+    float:left;
+}
+
+.leftButton {
+    list-style: none;
+    margin: 10px;
+    float: right;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    font-family: Futura-PT,FuturaStd,Tahoma,Arial,Verdana,Sans-Serif;
+    padding: 5px 10px 5px 10px;
+}
+
+.rightButton:first-child{
+    float: right;
+}
+
+.rightButton {
+    list-style: none;
+    margin: 10px;
+    float: right;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    font-family: Futura-PT,FuturaStd,Tahoma,Arial,Verdana,Sans-Serif;
+    padding: 5px 10px 5px 10px;
+}
+
+.bottomBanner {
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.bottomBanner img {
+    width: 100%;
+}
+
+.centered {
+    font-family: Futura-PT,FuturaStd,Tahoma,Arial,Verdana,Sans-Serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.SearchBar {
+    width: 100%;
+    max-width: 700px;
+    height: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.SearchBar input {
+    background: transparent;
+    flex: 1;
+    margin-top: 16px;
+    margin-right: 100px;    
+    border: none;
+    outline: none;
+    padding: 6px;
+    font-family: Futura-PT,FuturaStd,Tahoma,Arial,Verdana,Sans-Serif;
+}
+
+.SearchBar button {
+    position: relative;
+    background: transparent;
+    border: 0;
+}
+
+.button {
+    padding: 20px;
+    font-family: Futura-PT,FuturaStd,Tahoma,Arial,Verdana,Sans-Serif;
+}
+
+.button:link {
+    background-color: #2b2a2a;
+    color: white;
+}
+
+.button:hover {
+    background-color: #5c5b5b;
+}
+
+h2 {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    bottom: 100px;
+}
+h3 {
+    color: white;
+}
+
+p {
+    position: relative;
+    bottom: 250px;
+}
